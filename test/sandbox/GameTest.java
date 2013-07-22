@@ -43,6 +43,36 @@ public class GameTest {
         assertThat(g.score(), is(24));
     }
 
+    @Test
+    public void pergectGame() {
+        rollMany(12, 10);
+        assertThat(g.score(), is(300));
+    }
+
+    @Test
+    public void 受入テスト() {
+        g.roll(1);
+        g.roll(4);
+        g.roll(4);
+        g.roll(5);
+        g.roll(6);
+        g.roll(4);
+        g.roll(5);
+        g.roll(5);
+        g.roll(10);
+        g.roll(0);
+        g.roll(1);
+        g.roll(7);
+        g.roll(3);
+        g.roll(6);
+        g.roll(4);
+        g.roll(10);
+        g.roll(2);
+        g.roll(8);
+        g.roll(6);
+        assertThat(g.score(), is(133));
+    }
+
     private void rollMany(int n, int pins) {
         for (int i = 0; i < n; i++) {
             g.roll(pins);
