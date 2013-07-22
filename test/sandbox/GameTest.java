@@ -28,8 +28,7 @@ public class GameTest {
 
     @Test
     public void testOneSpare() {
-        g.roll(5);
-        g.roll(5);
+        rollSpare();
         g.roll(3);
         rollMany(17, 0);
         assertThat(g.score(), is(16));
@@ -39,5 +38,10 @@ public class GameTest {
         for (int i = 0; i < n; i++) {
             g.roll(pins);
         }
+    }
+
+    private void rollSpare() {
+        g.roll(5);
+        g.roll(5);
     }
 }
