@@ -36,7 +36,7 @@ public class GameTest {
 
     @Test
     public void testOneStrike() {
-        g.roll(10);
+        rollStrike();
         g.roll(3);
         g.roll(4);
         rollMany(16, 0);
@@ -52,5 +52,9 @@ public class GameTest {
     private void rollSpare() {
         g.roll(5);
         g.roll(5);
+    }
+
+    private void rollStrike() {
+        g.roll(10);
     }
 }
