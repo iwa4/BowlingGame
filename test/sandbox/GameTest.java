@@ -16,17 +16,19 @@ public class GameTest {
 
     @Test
     public void testGutterGame() {
-        for (int i = 0; i < 20; i++) {
-            g.roll(0);
-        }
+        rollMany(20, 0);
         assertThat(g.score(), is(0));
     }
 
     @Test
     public void testAllOnes() {
-        for (int i = 0; i < 20; i++) {
-            g.roll(1);
-        }
+        rollMany(20, 1);
         assertThat(g.score(), is(20));
+    }
+
+    private void rollMany(int n, int pins) {
+        for (int i = 0; i < n; i++) {
+            g.roll(pins);
+        }
     }
 }
