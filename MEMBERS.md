@@ -1,10 +1,1 @@
  * @iwa4: @p3
- * @chocolamint: @j.wada
- * @distkloc: @ykanbayashi
- * @ynakagawa33: @y.nakagawa
- * @kumakura9213: @k.kunii
- * @ksugimura: @sugi
- * @kenta-sugihara: @sugihara
- * @a-kuro: @kurosawa
- * @shotaroterada: @s.terada
- * @tfukudan: @t.fukuda
