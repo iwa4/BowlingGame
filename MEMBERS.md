@@ -1,4 +1,10 @@
- * @alice_at_github: @alice_at_chat
- * @bob_at_github: @bob_at_chat
  * @iwa4: @p3
- * @hoge: @fuga
+ * @chocolamint: @j.wada
+ * @distkloc: @ykanbayashi
+ * @ynakagawa33: @y.nakagawa
+ * @kumakura9213: @k.kunii
+ * @ksugimura: @sugi
+ * @kenta-sugihara: @sugihara
+ * @a-kuro: @kurosawa
+ * @shotaroterada: @s.terada
+ * @tfukudan: @t.fukuda
